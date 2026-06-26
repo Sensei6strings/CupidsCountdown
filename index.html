@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Our Story</title>
+
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div id="eventGlow"></div>
+    <canvas id="fireworksCanvas"></canvas>
+
+<!-- 🌑 INTRO SCREEN -->
+<div id="intro">
+  <h1>To remind you that I'm counting down the seconds until I see you</h1>
+  <p>Click anywhere to begin ❤️</p>
+  <small>P.S. Music will begin when you press play (just a heads up incase you're in class) </small>
+</div>
+
+<!-- 🎵 AUDIO -->
+<audio id="musicPlayer" loop></audio>
+
+<!-- 🌌 MAIN APP -->
+<div id="app">
+    <div id="memoryLayer"></div>
+    <div id="edgeLayer"></div>
+
+  <!-- 🕰 CLOCK -->
+<canvas id="clockCanvas" width="200" height="200"></canvas>
+
+  <!-- ⏳ MAIN TIMER -->
+  <div id="modeLabel"></div>
+
+  <div id="timer">
+    <div id="days"></div>
+    <div id="hours"></div>
+    <div id="minutes"></div>
+    <div id="seconds"></div>
+  </div>
+
+  <div id="poemLeft"></div>
+<div id="poemRight"></div>
+
+
+  <!-- 💕 MILESTONES -->
+  <div id="milestones"></div>
+
+  <!-- 📸 FLOATING MEMORIES -->
+  <div id="memories"></div>
+
+  <!-- 🌠 PARTICLES -->
+  <div id="particles"></div>
+
+</div>
+
+<!-- 🔻 FOOTER -->
+<footer>
+  Made by Your Nonsense❤
+</footer>
+
+<script src="scripts/memories.js"></script> 
+<script src="scripts/particles.js"></script>
+ <script src="scripts/fireworks.js"></script> 
+<script src="scripts/celebration.js"></script>
+<script src="scripts/milestones.js"></script>
+<script src="scripts/main.js"></script>
+
+</body>
+</html>
