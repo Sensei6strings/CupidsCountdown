@@ -1,4 +1,4 @@
-sits {
+body {
   margin: 0;
   font-family: Arial, sans-serif;
   color: white;
@@ -6,13 +6,13 @@ sits {
 
   background: linear-gradient(
     180deg,
-    #ff4d6d 0%,   /* deep sunrise pink */
-    #ff8fa3 25%,  /* warm blush */
-    #ffb86b 55%,  /* golden orange */
-    #fff1c1 100%  /* soft morning light */
+    #24113d 0%,
+    #5f2f6d 20%,
+    #b84c82 45%,
+    #f38b5c 72%,
+    #ffd98a 100%
   );
 }
-
 /* =========================
    🌅 INTRO SCREEN
 ========================= */
